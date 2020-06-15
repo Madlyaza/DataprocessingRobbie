@@ -1,0 +1,18 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+.select
+{
+    border-color: black;
+    background-color: beige;
+    color: black;
+    border-width: 1px;
+    padding: 1px;
+    border-style: solid;
+    margin: 4px;
+    width: 150px;
+    height: 25px;
+    border-radius: 5px;
+}

@@ -1,0 +1,44 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "title": "Draft 07 schema for summonerstats",
+    "description": "A schema for validating the summonerstats database",
+    "type": "array",
+    "properties": {
+        
+        "SummonerId": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 99999999999
+        },
+
+        "Top": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 1000
+        },
+
+        "Jungle": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 1000
+        },
+
+        "Mid": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 1000
+        },
+
+        "Support": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 1000
+        },
+
+        "Adc": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 1000
+        }
+    }
+}

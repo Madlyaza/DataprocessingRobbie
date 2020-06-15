@@ -1,0 +1,92 @@
+POST JSON FORMAT/////////////////////////////////////////////////////////
+
+SummonerStats
+{
+	"SummonerId":"69696969",
+    "Top":"1",
+    "Jungle":"2",
+    "Mid":"1",
+    "Support":"1",
+    "Adc":"1"
+}
+
+Champ Ids
+{
+	"ChampId":"69696969",
+    "ChampName":"BobJansuh"
+}
+
+unemployment Rate
+{
+    "OCATION":"BOB",
+    "INDICATOR":"AAAAAA",
+    "SUBJECT":"ROBOT",
+    "MEASURE":"INCHES",
+    "FREQUENCY":"SOME",
+    "TIME":"2000",
+    "Value":"24",
+    "FlagCodes":"A"
+}
+
+WORLD HAPPINESS
+{
+    "Country":"Runescape",
+    "Region":"Prif",
+    "HappinessRank":"112331",
+    "HappinessScore":"321313",
+    "LowerConfidenceInterval":"6.53",
+    "UpperConfidenceInterval":"6.9420",
+    "Economy":"1.5324",
+    "Family":"0.0000456",
+    "Health":"4352.2342",
+    "Freedom":"34.23",
+    "Trust":"0.1",
+    "Generosity":"0.234123",
+    "DystopiaResidual":"2.422342",
+    "Year":"2017"
+}
+
+
+UPDATE JSON FORMAT//////////////////////////////////////////////////
+
+SummonerStats
+{
+    "Top":"1",
+    "Jungle":"132",
+    "Mid":"1",
+    "Support":"24121",
+    "Adc":"2222221"
+}
+
+Champ Ids
+{
+    "ChampName":"BobJansuh"
+}
+
+unemployment Rate
+{
+    "INDICATOR":"AAAAAA",
+    "SUBJECT":"ROBOT",
+    "MEASURE":"INCHES",
+    "FREQUENCY":"SOME",
+    "TIME":"2000",
+    "Value":"24",
+    "FlagCodes":"A"
+}
+
+WORLD HAPPINESS
+{
+    "Region":"Prif",
+    "HappinessRank":"112331",
+    "HappinessScore":"321313",
+    "LowerConfidenceInterval":"6.53",
+    "UpperConfidenceInterval":"6.9420",
+    "Economy":"1.5324",
+    "Family":"0.0000456",
+    "Health":"4352.2342",
+    "Freedom":"34.23",
+    "Trust":"0.1",
+    "Generosity":"0.234123",
+    "DystopiaResidual":"2.422342",
+    "Year":"2017"
+}

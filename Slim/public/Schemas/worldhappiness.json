@@ -1,0 +1,92 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "title": "Draft 07 schema for Worldhappiness",
+    "description": "A schema for validating the Worldhappiness database",
+    "type": "array",
+    "properties": {
+        
+        "Country": {
+            "type": "string",
+            "minimum": 1,
+            "maximum": 1000
+        },
+
+        "Region": {
+            "type": "string",
+            "minimum": 1,
+            "maximum": 1000
+        },
+
+        "HappinessRank": {
+            "type": "number",
+            "minimum": 1,
+            "maximum": 1000
+        },
+
+        "HappinessScore": {
+            "type": "number",
+            "minimum": 1,
+            "maximum": 1000
+        },
+
+        "LowerConfidenceInterval": {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 1000
+        },
+
+        "UpperConfidenceInterval": {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 1000
+        },
+
+        "Economy": {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 1000
+        },
+
+        "Family": {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 1000
+        },
+
+        "Health": {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 1000
+        },
+
+        "Freedom": {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 1000
+        },
+
+        "Trust": {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 1000
+        },
+
+        "Generosity": {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 1000
+        },
+
+        "DystopiaResidual": {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 1000
+        },
+
+        "Year": {
+            "type": "integer",
+            "minimum": 1900,
+            "maximum": 10000
+        }
+    }
+}

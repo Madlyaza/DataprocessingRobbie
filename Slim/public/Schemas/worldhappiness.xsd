@@ -1,0 +1,28 @@
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="data">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="item" maxOccurs="unbounded" minOccurs="0">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element type="xs:string" name="Country"/>
+              <xs:element type="xs:string" name="Region"/>
+              <xs:element type="xs:short" name="HappinessRank"/>
+              <xs:element type="xs:float" name="HappinessScore"/>
+              <xs:element type="xs:float" name="LowerConfidenceInterval"/>
+              <xs:element type="xs:float" name="UpperConfidenceInterval"/>
+              <xs:element type="xs:float" name="Economy"/>
+              <xs:element type="xs:float" name="Family"/>
+              <xs:element type="xs:float" name="Health"/>
+              <xs:element type="xs:float" name="Freedom"/>
+              <xs:element type="xs:float" name="Trust"/>
+              <xs:element type="xs:float" name="Generosity"/>
+              <xs:element type="xs:float" name="DystopiaResidual"/>
+              <xs:element type="xs:short" name="Year"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

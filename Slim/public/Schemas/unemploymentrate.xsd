@@ -1,0 +1,22 @@
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="data">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="item" maxOccurs="unbounded" minOccurs="0">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element type="xs:string" name="OCATION"/>
+              <xs:element type="xs:string" name="INDICATOR"/>
+              <xs:element type="xs:string" name="SUBJECT"/>
+              <xs:element type="xs:string" name="MEASURE"/>
+              <xs:element type="xs:string" name="FREQUENCY"/>
+              <xs:element type="xs:short" name="TIME"/>
+              <xs:element type="xs:byte" name="Value"/>
+              <xs:element type="xs:string" name="FlagCodes"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

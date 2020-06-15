@@ -1,0 +1,56 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "title": "Draft 07 schema for Unemployment rate",
+    "description": "A schema for validating the Unemployment rate database",
+    "type": "array",
+    "properties": {
+        
+        "OCATION": {
+            "type": "string",
+            "minimum": 1,
+            "maximum": 1000
+        },
+
+        "INDICATOR": {
+            "type": "string",
+            "minimum": 1,
+            "maximum": 1000
+        },
+
+        "SUBJECT": {
+            "type": "string",
+            "minimum": 1,
+            "maximum": 1000
+        },
+
+        "MEASURE": {
+            "type": "string",
+            "minimum": 1,
+            "maximum": 1000
+        },
+
+        "FREQUENCY": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 1000
+        },
+
+        "TIME": {
+            "type": "string",
+            "minimum": 1,
+            "maximum": 1000
+        },
+
+        "Value": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 100
+        },
+
+        "FlagCodes": {
+            "type": "string",
+            "minimum": 1,
+            "maximum": 10
+        }
+    }
+}
